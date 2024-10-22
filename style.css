@@ -1,0 +1,80 @@
+.info-table {
+    width: 70%; /* Lebar tabel 70% dari kontainer */
+    border-collapse: collapse; /* Menghapus jarak antara sel */
+    margin: 0 auto; /* Memusatkan tabel */
+}
+
+.info-table th,
+.info-table td {
+    border: 1px solid #D48C8C; /* Warna garis border */
+    padding: 10px; /* Ruang dalam sel */
+    text-align: left; /* Menyelaraskan teks ke kiri */
+}
+
+.info-table th {
+    background-color: #4B8B3B; /* Hijau Abu Gelap untuk header */
+    color: white; /* Warna teks header putih */
+}
+
+.info-table td {
+    background-color: #f9f9f9; /* Warna latar belakang untuk sel data */
+}
+
+body {
+    font-family: 'Pangolin', cursive; /* Menggunakan font Pangolin */
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    font-family: 'Dancing Script', cursive; /* Font lucu untuk header */
+    background-color: #4B8B3B; /* Hijau Abu Gelap */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-family: 'Pangolin', cursive; /* Font lucu untuk subjudul */
+    color: #D48C8C; /* Pink Lembut */
+    text-align: center; /* Pusatkan judul */
+}
+
+.section {
+    margin-bottom: 20px;
+    text-align: center; /* Pusatkan isi konten */
+}
+
+.divider {
+    border: none; /* Hapus border default */
+    height: 2px; /* Tinggi pembatas */
+    background-color: #D48C8C; /* Warna pink lembut untuk pembatas */
+    margin: 20px 0; /* Jarak atas dan bawah */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4B8B3B; /* Hijau Abu Gelap */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
